@@ -1,0 +1,9 @@
+.navbar{
+    background-color:darkgray;
+}
+.login {
+    margin-left: auto;
+  }
+  .container{
+    flex:content;
+  }
