@@ -1,9 +1,27 @@
-.navbar{
-    background-color:darkgray;
+/* Navbar Styling */
+.navbar {
+  font-size: 16px;
+  font-weight: 500;
 }
-.login {
-    margin-left: auto;
-  }
-  .container{
-    flex:content;
-  }
+
+.nav-link {
+  color: #5a5a5a;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: black;
+  color: white; /* Change text color to white on hover */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+button.rounded-pill {
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+}
